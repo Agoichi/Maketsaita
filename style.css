@@ -52,8 +52,9 @@ span:hover{
     opacity: 1;
 }
 .bg-img{
+    margin-bottom:1px;
     position: absolute;
-    background:no-repeat;
+   
   background-size: cover;
     width: 100%;
     height: 668px;
@@ -142,5 +143,77 @@ border-radius: 3px;
     align-self: flex-end;
     position: absolute;
     top: 335px;
+
+}
+.third-box{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:768px;
+    height: 192px;
+    width: 100%;
+    background-color: #2B4074;
+}
+.box-tri-text {
+
+ 
+height: 84px;
+width: 764px;
+display: flex;
+flex-direction:column ;
+
+justify-content: center;
+
+}
+
+.box-tri-button{
+    border-style: none;
+    font-family: Roboto Condensed ;
+    height: 50px;
+    width: 200px;
+    
+    border-radius: 3px;
+    
+font-style: normal;
+background-color: #F9F6E5;
+opacity: 1;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+
+text-align: center;
+}
+.box-tri-button:hover{
+    transition-duration: 0.4s;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.btth1{
+    position: absolute;
+    top:51px;
+    font-family: Roboto Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing:1px;
+color: white;
+}
+.bttp{
+    position: absolute;
+    top:93px;
+    font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+
+
+
+color: #FFFFFF;
 
 }
